@@ -3,7 +3,7 @@ function EJ() {
     var d = []
 
     var lazy = $('').lazyRule(() => {
-        require('https://github.com/M7-Arin/PicGo/blob/master/rulelist.js')
+        require('https://raw.githubusercontents.com/M7-Arin/PicGo/master/rulelist.js')
         var html = fetch(input).match(/window.open\('(.*?)'/)[1]
             if (html.indexOf('sa.sogou') != -1) {
                 return pdfh(fetch(html), 'video&&src')
@@ -13,7 +13,7 @@ function EJ() {
     })
 
         var html = JSON.parse(getResCode().split('window.__INITIAL_STATE__=')[1].split(';(function(){var s;')[0]).detail.itemData;
-    require('https://github.com/M7-Arin/PicGo/blob/master/rulelist.js')
+    require('https://raw.githubusercontents.com/M7-Arin/PicGo/master/rulelist.js')
     d.push({
         title: ((html.score ? '评分：' + html.score + '\t\t\t' : html.emcee ? '主持：' + html.emcee : '') + (html.year ? '年代：' + html.year : '') + '\n' + (html.zone + '\t' + html.style).substring(0, 15) + '\n' + (html.starring ? '主演：' + html.starring.substring(0, 15) : '')).replace(/undefined/g, ''),
         desc: html.release_time || html.update_wordstr || html.introduction,
