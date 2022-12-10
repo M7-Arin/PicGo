@@ -1,6 +1,6 @@
 eval(fetch('hiker://files/cache/fileLinksᴰⁿ.txt'));
 var Route = {
-    jxLazy: "require('https://gitea.com/AI957/Hiker/raw/m/v/Route.js');aytmParse(input)",
+    jxLazy: "require('https://raw.githubusercontents.com/M7-Arin/PicGo/master/rulelist.js');aytmParse(input)",
     setParse: function() {
         eval(fetch('hiker://files/cache/fileLinksᴰⁿ.txt'));
         if (!getVar('jxItemV')) {
