@@ -3,7 +3,7 @@ function EJ() {
     var d = []
 
     var lazy = $('').lazyRule(() => {
-        require('https://agit.ai/AI957/Hiker/raw/branch/m/v/Route.js')
+        require('https://github.com/M7-Arin/PicGo/blob/master/rulelist.js')
         var html = fetch(input).match(/window.open\('(.*?)'/)[1]
             if (html.indexOf('sa.sogou') != -1) {
                 return pdfh(fetch(html), 'video&&src')
