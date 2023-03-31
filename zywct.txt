@@ -1,7 +1,7 @@
 #点播：
 芒果,https://cj.lziapi.com/api.php/provide/vod/,解析
 奇艺,https://m3u8.apiyhzy.com/api.php/provide/vod/,解析
-腾讯,http://cms.itcxo.cn/icciu_api.php/v1.vod,解析
+腾讯,http://film.feiyu.vin/api.php/provide/vod/from/xlm3u8/,解析
 优酷,https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/,解析
 #
 #资源
